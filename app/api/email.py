@@ -14,6 +14,7 @@ from settings import settings
 router = APIRouter()
 api_key = settings.sendgrid_api_key
 
+
 @router.post("/emails/", response_model=email_schemas.Email)
 def send_email(email: email_schemas.EmailCreate, db: Session = Depends(get_db)):
     return EmailService.send_email(api_key=api_key, email_data=email, db=db)

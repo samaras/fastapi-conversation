@@ -1,16 +1,13 @@
 aiohttp==3.8.5
 alembic==1.12.1
 alembic-autogen-check==1.1.1
-black==23.10.1
-email_validator==2.1.1
 fastapi==0.103.1
 psycopg2-binary==2.9.9
 pydantic==2.3.0
-pydantic_core==2.6.3
 pydantic-settings==2.2.1
+pydantic[email]==2.3.0
 python-dotenv==1.0.1
 python-multipart==0.0.6
 sendgrid==6.10.0
 SQLAlchemy==2.0.23
 twilio==8.8.0
-uvicorn==0.23.2

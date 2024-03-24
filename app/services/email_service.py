@@ -8,7 +8,7 @@ from models.email import Email
 from schemas.email import EmailCreate
 from settings import settings
 
-TWILIO_ACCOUNT_SID = settings.twilio_account_sid 
+TWILIO_ACCOUNT_SID = settings.twilio_account_sid
 TWILIO_AUTH_TOKEN = settings.twilio_auth_token
 
 
