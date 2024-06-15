@@ -2,8 +2,6 @@ from sqlalchemy.orm import Session
 from models.customer import Customer
 from schemas.customer import CustomerCreate
 
-from pprint import pprint
-
 
 def add_customer(db: Session, name: str, email: str, phone: str):
     db_customer = Customer(name=name, email=email, phone=phone)
